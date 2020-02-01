@@ -1,0 +1,202 @@
+body {
+  font-family: arial;
+  margin: 0px;
+}
+#page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header, .footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: orange;
+  margin-bottom: 2px;
+  padding: 8px 0px;
+}
+.ry-logo, .copyright {
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 2;
+  padding: 15px 0 5px 90px;
+  width: 160px;
+ 
+}
+.header-menu, .footer-menu {
+  display:flex;
+  justify-content: center;
+  padding-right: 90px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.header-menu a, .footer-menu a {
+  text-decoration: none;
+  color: #1b1e23;
+  padding-right: 18px;
+}
+.header-menu a:hover, .footer-menu a:hover {
+  color: white;
+}
+.b-text {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.banner {
+  display: flex;
+  background: url("../images/hero-image.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 580px;;
+}
+.start-week {
+background: white;
+position: relative;
+top: 200px;
+right: 20px;
+font-size: 35px;
+font-weight: bold;
+padding: 10px;
+}
+.p-one {
+  padding: 0px 90px;
+}
+.three-meals {
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+  padding: 15px 90px 50px 90px;
+}
+.breakfast{
+  background: url("../images/breakfast-ideas.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+  margin-right: 35px;
+}
+.veggies{
+  background: url("../images/vegetarian-ideas.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+}
+.dinners{
+  background: url("../images/dinners.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+  margin-left: 35px;
+}
+.pic-caption {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 220px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.healthy-banner {
+  background-color: lightgrey;
+}
+.p-two {
+  padding: 0px 90px;
+}
+.healthy-banner {
+  display: flex;
+  background: lightgrey;
+  padding-top: 10px;
+  height: 530px;
+  flex-wrap: wrap;
+}
+.healthy-pics {
+  display: flex;
+  justify-content: space-between;
+  height: 270px;
+  padding: 0px 90px;
+}
+
+.fajita {
+  background: url(../images/fajita-peppers.jpeg);
+  background-position: top;
+  background-size: contain;
+  width: 255px;
+  height: 240px;
+  margin: 0px 60px 0px 0px;
+}
+.muffin {
+  background: url(../images/muffins.jpeg);
+  background-position: top;
+  background-size: contain;
+  width: 255px;
+  height: 240px;
+  margin: 0px 60px 0px 0px;
+}
+.eggplant {
+  background: url(../images/eggplant.jpg);
+  background-position: top;
+  background-size: contain;
+  width: 235px;
+  height: 240px;
+  margin: 0px 60px 0px 0px;
+}
+.teriyaki {
+  background: url(../images/teriyaki-chicken.jpeg);
+  background-position: top;
+  background-size: contain;
+  width: 255px;
+  height: 240px;
+  margin: 0px 10px 0px 0px;
+}
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+
+} 
+.caption {
+  background: white;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+}
+.font {
+  font-size: 27px;
+}
+h2 {
+  font-size: 40px;
+}
+.best-sandwich {
+  background: url("../images/bengal-burger.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+  margin-right: 35px;
+  border: 7px solid lightgrey;
+}
+.state-pizzas {
+  background: url("../images/pizza.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+  margin-right: 35px;
+  border: 7px solid lightgrey;
+}
+.city-guides {
+  background: url("../images/dinners.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: 210px;
+  margin-right: 35px;
+  border: 7px solid lightgrey;
+}
