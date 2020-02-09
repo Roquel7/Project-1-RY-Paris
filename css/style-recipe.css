@@ -165,8 +165,12 @@ ol h1 {
 }
 .video {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     margin-top:-70px;
     padding-bottom: 60px;
     border-color: black;
+}
+.video h3 {
+    margin-right: 80px;;
 }
