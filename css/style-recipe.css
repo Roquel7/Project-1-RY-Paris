@@ -163,3 +163,10 @@ ul h1 {
 ol h1 {
     margin-left: -25px;
 }
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top:-70px;
+    padding-bottom: 60px;
+    border-color: black;
+}
